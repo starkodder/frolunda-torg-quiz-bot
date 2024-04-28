@@ -5,7 +5,8 @@ The API enpoints that they used:
 https://pear-vast-fish.cyclic.app/highscore
 https://pear-vast-fish.cyclic.app/weeklyhighscore
 https://pear-vast-fish.cyclic.app/questions
-https://pear-vast-fish.cyclic.app/validate
+https://pear-vast-fish.cyclic.app/validate 
+(the christmasrhyme bot which used the chatgpt API was also deployed on cyclic)
 
 The actual game was an iframe inside https://frolundatorg.se/quiz : https://ft-quizwebclient.vercel.app/ 
 The weekly score wasn't shown the last week, but the weeklyhighscore still returned last weeks highscores. 
