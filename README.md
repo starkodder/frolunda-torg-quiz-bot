@@ -4,7 +4,7 @@ Includes both python code and tampermonkey bot to scrape and solve all the quest
 The API enpoints that they used: 
 https://pear-vast-fish.cyclic.app/highscore (contains the 10 highest scores of all time)
 https://pear-vast-fish.cyclic.app/weeklyhighscore (contains the 5 highest scores of the week or the scores of the previous week the last week)
-https://pear-vast-fish.cyclic.app/questions (gives 10 random questions from 1 of 19 questiongroups)
+https://pear-vast-fish.cyclic.app/questions (gives 10 random questions from 1 of 19 questiongroups and one of five hard questions (stored in utslagning.json))
 https://pear-vast-fish.cyclic.app/validate (the endpoint used to participate in the competition)
 (the christmasrhyme bot which used the chatgpt API was also deployed on cyclic)
 
