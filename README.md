@@ -9,3 +9,5 @@ https://pear-vast-fish.cyclic.app/validate
 
 The actual game was an iframe inside https://frolundatorg.se/quiz : https://ft-quizwebclient.vercel.app/ 
 The weekly score wasn't shown the last week, but the weeklyhighscore still returned last weeks highscores. 
+
+The game sends you an email to the given mail address with a link to verify in the format of https://quiz.frolundatorg.se/approve/* with * representing a 96 char long hexadecimal string (this only works once per email, so you can't enter the same mail twice). The format of the mails are written in the file mailformat.txt. 
