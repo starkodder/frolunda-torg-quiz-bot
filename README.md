@@ -5,7 +5,8 @@ The API enpoints that were used:
 https://pear-vast-fish.cyclic.app/highscore (contains the 10 highest scores of all time)
 https://pear-vast-fish.cyclic.app/weeklyhighscore (contains the 5 highest scores of the week or the scores of the previous week the last week)
 https://pear-vast-fish.cyclic.app/questions (gives 10 random questions from 1 of 19 questiongroups and one of five challenge questions (stored in utslagning.json))
-https://pear-vast-fish.cyclic.app/validate (the endpoint used to participate in the competition and send all contact details of the participants)
+https://pear-vast-fish.cyclic.app/validate (the endpoint was used to calculate the score and questions that was right)
+https://pear-vast-fish.cyclic.app/adduser (the endpoint that is used to send all contact details to the server along with the score)
 (the christmasrhyme bot which used the chatgpt API was also deployed on cyclic)
 
 The actual game was an vercel app iframed inside of https://frolundatorg.se/quiz : https://ft-quizwebclient.vercel.app/ 
