@@ -12,7 +12,7 @@ https://pear-vast-fish.cyclic.app/adduser (the endpoint that is used to send all
 The actual game was an vercel app iframed inside of https://frolundatorg.se/quiz : https://ft-quizwebclient.vercel.app/ 
 The weekly score wasn't shown the last week, but the weeklyhighscore still returned last weeks highscores. All solutions to the questions are stored in solutions.json. 
 
-The game sends you an email to the given mail address with a link to verify in the format of https://quiz.frolundatorg.se/approve/* with * representing a 96 char long hexadecimal string (this only works once per email, so you can't enter the same mail twice). The format of the mails are written in the file mailformat.txt. 
+The game sends you an email to the given mail address with a link to verify in the format of https://quiz.frolundatorg.se/approve/* with * representing a 96 char long hexadecimal string (this only works once per email, so you can't enter the same mail twice). The format of the mails are written in the file mailformat.txt. You get redirected to https://ft-quizwebclient.vercel.app/tack when you get a high score. 
 
 The scores as of 2024/04/28 22:00 are stored inside 22.json and the weekly scores of 2024/04/28 are stored in weekly.json. 
 Edit 22:20: getting this now: Error error: remaining connection slots are reserved for non-replication superuser connections
